@@ -1,3 +1,3 @@
-# Grocery Simulator 1.3
+# Grocery Simulator 1.4
 
-Adds manual update checking in Settings.
+TalkBack-first Phase 1 navigation foundation rebuild.
