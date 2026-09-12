@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4",
-  "releaseNotes": "TalkBack-first Phase 1 rebuild with real Navigation Compose stack and location-aware Back navigation.",
-  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v1.4.apk"
+  "versionCode": 6,
+  "versionName": "1.5",
+  "releaseNotes": "Title-free TalkBack navigation with stack-based Back behavior and a single accessible Game Screen header.",
+  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v1.5.apk"
 }
