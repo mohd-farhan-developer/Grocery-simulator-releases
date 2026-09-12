@@ -1,3 +1,3 @@
-# Grocery Simulator 1.2
+# Grocery Simulator 1.3
 
-Rebuilt TalkBack-first Phase 1 navigation foundation.
+Adds manual update checking in Settings.
