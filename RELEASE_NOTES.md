@@ -1,3 +1,3 @@
-# Grocery Simulator 1.1
+# Grocery Simulator 1.2
 
-Phase 1 navigation foundation with automatic update checking.
+Rebuilt TalkBack-first Phase 1 navigation foundation.
