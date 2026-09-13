@@ -1,3 +1,3 @@
-# Grocery Simulator 1.9
+# Grocery Simulator 1.8
 
-New Computer Market: search products, filter by category, add boxes to a saved shopping cart, and place orders for delivery to the storage room.
+The main menu now announces itself after startup for TalkBack users.

@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "1.9",
-  "releaseNotes": "New Computer Market: search products, filter by category, add boxes to a saved shopping cart, and place orders for delivery to the storage room.",
-  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v1.9.apk"
+  "versionCode": 9,
+  "versionName": "1.8",
+  "releaseNotes": "The main menu now announces itself after startup for TalkBack users.",
+  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v1.8.apk"
 }
