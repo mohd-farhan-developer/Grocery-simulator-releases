@@ -1,6 +1,6 @@
 {
-  "versionCode": 8,
-  "versionName": "1.7",
-  "releaseNotes": "Added plain page titles and one-time TalkBack screen announcements while preserving stack-based navigation.",
-  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v1.7.apk"
+  "versionCode": 9,
+  "versionName": "1.8",
+  "releaseNotes": "The main menu now announces itself after startup for TalkBack users.",
+  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v1.8.apk"
 }

@@ -1,3 +1,3 @@
-# Grocery Simulator 1.7
+# Grocery Simulator 1.8
 
-Added plain page titles and one-time TalkBack screen announcements while preserving stack-based navigation.
+The main menu now announces itself after startup for TalkBack users.
