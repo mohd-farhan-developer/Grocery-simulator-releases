@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "1.6",
-  "releaseNotes": "TalkBack-first navigation foundation with automatic saving, update checking, and stack-based back behavior.",
-  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v1.6.apk"
+  "versionCode": 8,
+  "versionName": "1.7",
+  "releaseNotes": "Added plain page titles and one-time TalkBack screen announcements while preserving stack-based navigation.",
+  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v1.7.apk"
 }

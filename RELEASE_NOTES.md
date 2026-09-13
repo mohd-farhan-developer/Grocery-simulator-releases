@@ -1,3 +1,3 @@
-# Grocery Simulator 1.6
+# Grocery Simulator 1.7
 
-TalkBack-first navigation foundation with automatic saving, update checking, and stack-based back behavior.
+Added plain page titles and one-time TalkBack screen announcements while preserving stack-based navigation.
