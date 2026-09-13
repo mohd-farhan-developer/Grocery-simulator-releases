@@ -1,3 +1,3 @@
-# Grocery Simulator 1.5
+# Grocery Simulator 1.6
 
-Title-free TalkBack navigation rebuild.
+TalkBack-first navigation foundation with automatic saving, update checking, and stack-based back behavior.
