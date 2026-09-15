@@ -1,46 +1,44 @@
-# Grocery Simulator 3.5
+# Grocery Simulator 3.6
 
-Customers are here: open your store, serve shoppers at the Checkout Counter, take card and cash payments, and hear new sound effects across the game.
+A real daily routine: prepare from 08:00, open the store at 09:00, close when you are ready, and review your End of Day report. Customers now walk naturally through the whole store.
+
+## Daily schedule
+
+- Every day now starts at 08:00 with the store closed.
+- From 08:00 to 09:00 is your preparation hour: restock racks, move boxes, order products, pay bills, use EasyBank, and set staff duties. No customers come in yet.
+- The Shop Floor shows the store status, for example: Store: Closed. Preparation until 09:00.
+
+## Opening and closing the store
+
+- The Shop Floor has one store button. From 09:00, choose Open Store. A chime plays and TalkBack says: Store opened. Customers may now enter.
+- The store opens once a day. After opening, the same button becomes Close Store.
+- Close Store locks the entrance. No new customers come in, but everyone inside finishes shopping, pays, returns their basket, and leaves normally.
+- After closing, the button shows Store Closed until the next day.
+- If the store is still open at midnight, it closes by itself and the last customers still finish.
+- The End Day button has been removed. The day now ends by itself.
+
+## End of Day report
+
+- When the store is closed and the last customer has left, the End of Day report opens automatically.
+- It shows Total Sales, Customers Served, Customers Lost, Cash Payments, Card Payments, Bills Paid, and Net Profit.
+- Salaries are paid when the day ends, so they are included in Bills Paid.
+- Choose Continue to Next Day to start the next day at 08:00 with the store closed. The report has no Back button.
+
+## Staff
+
+- Employees with a shift start work once the store opens. Staff without a shift stay in Staff Housing.
+- After you close the store, staff keep working until the last customer leaves, then return to Staff Housing.
 
 ## Customers
 
-- Your supermarket now has customers.
-- Use Open Store on the Shop Floor to let customers in, and Close Store to stop new arrivals. Customers already inside finish their shopping.
-- Customers arrive with their own shopping list, take a basket, walk from rack to rack, and spend about five minutes looking at each rack before moving on.
-- A typical visit lasts 15 to 25 game minutes. Some customers are quick, others take their time.
-- The store is busier at lunchtime from 12:00 to 15:00 and in the evening from 19:00 to 21:00. Mornings are quiet.
-- Up to five customers can be inside at once. A door bell plays when someone walks in.
-- If items on their list are sold out, customers skip them. After several empty shelves they may cancel shopping and put everything back.
-- At the end of the day the store closes and everyone still inside goes home.
-- The Customers page lists everyone in the store with what they are doing, their mood, their shopping list, and how full their basket is.
+- Customers now walk everywhere: into the store, to the basket stand, to each rack, to the checkout, back to the basket stand, and out through the entrance.
+- The door bell rings when customers come in and when they leave.
+- Customers visit their racks in their own order, so no two visits look the same.
+- Two customers can shop at a rack at once. A third waits a moment, then shops somewhere else first and comes back.
+- Customers who leave the queue or give up now put their items back and walk out instead of disappearing.
+- Some families bring a child along. You can see this on the Customers page.
 
-## Baskets
+## TalkBack
 
-- The basket stand has five small baskets that hold 10 items and two large baskets that hold 20 items.
-- If no basket is free, customers wait for one, and leave if the wait is too long.
-- After paying, customers carry their basket back to the stand before it can be used again.
-- The Shop Floor shows Baskets: 1 remaining when baskets run short.
-
-## Checkout Counter
-
-- Open the Checkout Counter from the Shop Floor to serve customers.
-- Scan Next Item scans one item with a beep and tells you the running total. Cancel Sale sends the customer away and puts their items back.
-- When everything is scanned, you hear whether the customer pays by card or cash.
-- Card: choose Approve Payment.
-- Cash: the customer hands over a round amount. Give change with the 1 to 100 rupee buttons, then choose Complete Payment when the remaining change is zero.
-- Some customers pay the exact amount in cash, and the payment completes as soon as the last item is scanned.
-- Every sale adds cash and a Customer Sale entry in EasyBank.
-- A cashier on shift from HireNow serves customers for you.
-
-## Queue
-
-- The checkout queue holds three customers, first come first served.
-- TalkBack announces when a customer joins, for example: Rahul joined the checkout queue. Position 1.
-- Once in the queue, customers wait about three real minutes. TalkBack tells you when they start waiting and when they get angry, and they leave if nobody serves them.
-
-## Sound effects
-
-- New sounds for placing an order, paying a bill, taking a loan, repaying a loan, and hiring a worker.
-- New sounds for opening, picking up, and throwing away boxes, assembling racks and upgrades, and taking products out of a box. Packets, bottles, cartons, and milk cartons each have their own sound.
-- New sounds when a customer joins the queue and when a payment is completed.
-- Sounds follow the Sound Volume setting. Computer app sounds are a little quieter than shop sounds, and TalkBack announcements work as before.
+- Customer announcements are now limited to joining the queue, waiting, getting angry, payment completed, and leaving the checkout queue.
+- TalkBack also announces when the store opens or closes, when the last customer leaves, when the End of Day report is ready, and when a new day starts.
