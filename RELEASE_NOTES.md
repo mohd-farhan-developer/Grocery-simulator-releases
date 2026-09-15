@@ -1,44 +1,45 @@
-# Grocery Simulator 3.6
+# Grocery Simulator 3.7
 
-A real daily routine: prepare from 08:00, open the store at 09:00, close when you are ready, and review your End of Day report. Customers now walk naturally through the whole store.
+Three checkout desks, a simpler Shop Floor with every rack inside Shelves, a status bar that never scrolls away, and a faster, cleaner game.
 
-## Daily schedule
+## Checkout desks
 
-- Every day now starts at 08:00 with the store closed.
-- From 08:00 to 09:00 is your preparation hour: restock racks, move boxes, order products, pay bills, use EasyBank, and set staff duties. No customers come in yet.
-- The Shop Floor shows the store status, for example: Store: Closed. Preparation until 09:00.
+- Checkout now has three desks. Each desk is one button showing the customer, item count, cashier, and status.
+- Desk 1 is always open for you. Desks 2 and 3 open while a cashier is working there.
+- Open a desk to serve its customer. Scan, cancel, and payment buttons stay pinned at the bottom of the screen.
+- Use Move Cashier on any desk page to move cashiers between desks.
+- When a customer joins the queue, TalkBack says, for example: Rahul is waiting at checkout. Checkout never opens by itself.
 
-## Opening and closing the store
+## Shop Floor and Shelves
 
-- The Shop Floor has one store button. From 09:00, choose Open Store. A chime plays and TalkBack says: Store opened. Customers may now enter.
-- The store opens once a day. After opening, the same button becomes Close Store.
-- Close Store locks the entrance. No new customers come in, but everyone inside finishes shopping, pays, returns their basket, and leaves normally.
-- After closing, the button shows Store Closed until the next day.
-- If the store is still open at midnight, it closes by itself and the last customers still finish.
-- The End Day button has been removed. The day now ends by itself.
+- The Shop Floor is simpler: the store button, then Shelves, Warehouse, Customers, Checkout, and Computer.
+- All racks and boxes on the floor are now inside Shelves. Select a rack to open it as before.
+- Racks now show Stock, Reserved, Price, and Status.
+- The queue is only shown when customers are waiting.
 
-## End of Day report
+## Status bar
 
-- When the store is closed and the last customer has left, the End of Day report opens automatically.
-- It shows Total Sales, Customers Served, Customers Lost, Cash Payments, Card Payments, Bills Paid, and Net Profit.
-- Salaries are paid when the day ends, so they are included in Bills Paid.
-- Choose Continue to Next Day to start the next day at 08:00 with the store closed. The report has no Back button.
-
-## Staff
-
-- Employees with a shift start work once the store opens. Staff without a shift stay in Staff Housing.
-- After you close the store, staff keep working until the last customer leaves, then return to Staff Housing.
+- Cash, day, and time are now in a bar at the bottom of every game screen, and it never scrolls away.
+- Cash is on the left, the day in the middle, and the time on the right. TalkBack reads each one separately.
 
 ## Customers
 
-- Customers now walk everywhere: into the store, to the basket stand, to each rack, to the checkout, back to the basket stand, and out through the entrance.
-- The door bell rings when customers come in and when they leave.
-- Customers visit their racks in their own order, so no two visits look the same.
-- Two customers can shop at a rack at once. A third waits a moment, then shops somewhere else first and comes back.
-- Customers who leave the queue or give up now put their items back and walk out instead of disappearing.
-- Some families bring a child along. You can see this on the Customers page.
+- The Customers page now shows only what each customer is doing.
+- Mood and basket size appear only when a customer reaches the checkout.
+- Customers arrive every 40 to 70 game minutes when it is quiet, 25 to 45 at medium times, and 10 to 25 at peak hours.
 
-## TalkBack
+## Time
 
-- Customer announcements are now limited to joining the queue, waiting, getting angry, payment completed, and leaving the checkout queue.
-- TalkBack also announces when the store opens or closes, when the last customer leaves, when the End of Day report is ready, and when a new day starts.
+- Time now always runs at 20 game minutes for every real minute.
+- Time is always shown in 12-hour format. The Time Format and Game Speed settings have been removed.
+
+## BillDesk
+
+- Salaries now show as the employee's name and Salary, with amount and status, for example: John Salary.
+- Other bills show the amount, due day, and status. EasyBank still keeps the full transaction history.
+
+## Fixes and speed
+
+- Fixed carrying a packet that was no longer there after placing your last packet on a rack.
+- Pages now open instantly and TalkBack focus returns to where you were.
+- Shop Floor, Computer, Warehouse, Checkout, MarketHub, HireNow, and EasyBank no longer show a page title, so focus starts on the first button.
