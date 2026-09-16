@@ -1,14 +1,19 @@
-# Grocery Simulator 3.8
+# Grocery Simulator 3.9
 
-Page titles are back on every screen. Everything else from the last update stays as it is.
+The day and time now sit in the toolbar of every page, and the bottom bar keeps your cash with quick Computer and Warehouse buttons.
 
-## Page titles
+## Top toolbar
 
-- Every page shows its title again: Shop Floor, Computer, Warehouse, Customers, Checkout Counter, MarketHub, BillDesk, EasyBank, StockPro, and HireNow.
-- Opening a page puts TalkBack focus on the title, as before.
+- Every game page now shows the day and the time on the right of the toolbar, for example: Day 12 and 10:48 AM.
+- The page title stays on the left, and TalkBack reads the title, then the day, then the time as three separate items.
 
-## Unchanged
+## Bottom bar
 
-- The Shop Floor keeps the store button and Shelves, Warehouse, Customers, Checkout, and Computer.
-- The bottom status bar still shows cash on the left, the day in the middle, and the time on the right.
-- Racks stay inside Shelves.
+- The bar pinned to the bottom of the screen now holds your cash on the left, a Computer button in the middle, and a Warehouse button on the right.
+- It never scrolls away, so the Computer and the Warehouse are always one swipe away.
+- TalkBack reads the cash first, then Computer, then Warehouse.
+
+## Shop Floor
+
+- The Shop Floor keeps the store button, Shelves, Customers, and Checkout in the same places.
+- Warehouse and Computer have moved to the bottom bar, so they are no longer in the list.

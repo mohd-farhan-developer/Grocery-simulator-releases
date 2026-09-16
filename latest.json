@@ -1,6 +1,6 @@
 {
-  "versionCode": 20,
-  "versionName": "3.8",
-  "releaseNotes": "Page titles are back on every screen. Everything else from the last update stays as it is.\n\nPage titles\nEvery page shows its title again: Shop Floor, Computer, Warehouse, Customers, Checkout Counter, MarketHub, BillDesk, EasyBank, StockPro, and HireNow.\nOpening a page puts TalkBack focus on the title, as before.\n\nUnchanged\nThe Shop Floor keeps the store button and Shelves, Warehouse, Customers, Checkout, and Computer.\nThe bottom status bar still shows cash on the left, the day in the middle, and the time on the right.\nRacks stay inside Shelves.",
-  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v3.8.apk"
+  "versionCode": 21,
+  "versionName": "3.9",
+  "releaseNotes": "The day and time now sit in the toolbar of every page, and the bottom bar keeps your cash with quick Computer and Warehouse buttons.\n\nTop toolbar\nEvery game page now shows the day and the time on the right of the toolbar, for example: Day 12 and 10:48 AM.\nThe page title stays on the left, and TalkBack reads the title, then the day, then the time as three separate items.\n\nBottom bar\nThe bar pinned to the bottom of the screen now holds your cash on the left, a Computer button in the middle, and a Warehouse button on the right.\nIt never scrolls away, so the Computer and the Warehouse are always one swipe away.\nTalkBack reads the cash first, then Computer, then Warehouse.\n\nShop Floor\nThe Shop Floor keeps the store button, Shelves, Customers, and Checkout in the same places.\nWarehouse and Computer have moved to the bottom bar, so they are no longer in the list.",
+  "apkUrl": "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/GrocerySimulator-v3.9.apk"
 }
