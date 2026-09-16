@@ -1,19 +1,15 @@
-# Grocery Simulator 3.9
+# Grocery Simulator 4.0
 
-The day and time now sit in the toolbar of every page, and the bottom bar keeps your cash with quick Computer and Warehouse buttons.
+The clock and the bottom bar belong to the Shop Floor again, so every other page is back to just its title.
 
-## Top toolbar
+## Shop Floor only
 
-- Every game page now shows the day and the time on the right of the toolbar, for example: Day 12 and 10:48 AM.
-- The page title stays on the left, and TalkBack reads the title, then the day, then the time as three separate items.
+- The day and the time are shown in the Shop Floor toolbar again, and nowhere else.
+- The bottom bar with your cash and the Computer and Warehouse buttons now appears only on the Shop Floor.
+- Other pages show just their title and the Back button, as before.
 
-## Bottom bar
+## Moving around the shop
 
-- The bar pinned to the bottom of the screen now holds your cash on the left, a Computer button in the middle, and a Warehouse button on the right.
-- It never scrolls away, so the Computer and the Warehouse are always one swipe away.
-- TalkBack reads the cash first, then Computer, then Warehouse.
-
-## Shop Floor
-
-- The Shop Floor keeps the store button, Shelves, Customers, and Checkout in the same places.
-- Warehouse and Computer have moved to the bottom bar, so they are no longer in the list.
+- From the Shop Floor you can go to the Computer and the Warehouse.
+- The Warehouse keeps its Go to Shop Floor and Go to Computer buttons.
+- The Computer is unchanged.
