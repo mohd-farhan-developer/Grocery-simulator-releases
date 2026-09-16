@@ -1,15 +1,25 @@
-# Grocery Simulator 4.0
+# Grocery Simulator 4.1
 
-The clock and the bottom bar belong to the Shop Floor again, so every other page is back to just its title.
+Stock Clerks now do real physical work with the boxes you open, and leftover items are kept safely on the warehouse floor.
 
-## Shop Floor only
+## Stock Clerks
 
-- The day and the time are shown in the Shop Floor toolbar again, and nowhere else.
-- The bottom bar with your cash and the Computer and Warehouse buttons now appears only on the Shop Floor.
-- Other pages show just their title and the Back button, as before.
+- Stock Clerks now work like real people. They walk to the warehouse, pick up a box, walk to the rack, and place items one at a time.
+- Clerks only use boxes you have already opened. They never open sealed boxes, set up empty racks, buy stock, or change prices.
+- They restock empty racks first, then racks that are running low, and never fill a rack past its space.
+- When a rack only needs a few items, a clerk carries up to 10 loose items and leaves the box in the warehouse.
+- Clerks carry part-used boxes back to the warehouse, bring opened boxes from the shop floor back to the warehouse, and throw empty boxes away with the box sound.
+- When a break or the end of a shift comes, a clerk finishes the item in hand, puts the box or items away, and then leaves.
 
-## Moving around the shop
+## Warehouse floor stacks
 
-- From the Shop Floor you can go to the Computer and the Warehouse.
-- The Warehouse keeps its Go to Shop Floor and Go to Computer buttons.
-- The Computer is unchanged.
+- Leftover items a clerk brings back go into the opened box they came from, or another opened box of the same product with room.
+- Anything that does not fit is kept as a stack on the warehouse floor, with the exact quantity. Nothing is thrown away, and loose items never go on the shop floor.
+- The Warehouse lists each stack, for example: Wheat Flour Bags, Quantity 6, Warehouse Floor. Select it to pick up to 10 items, then store them in an opened box or stock them on a rack.
+- Clerks also use these stacks when restocking and pack them into opened boxes with room. Stacks are saved and counted in StockPro.
+
+## TalkBack
+
+- TalkBack tells you when a clerk picks up a box, starts restocking, finishes, returns an opened box, or discards an empty box.
+- It also tells you when a clerk leaves items on the warehouse floor, for example: Sara placed 6 Wheat Flour bags on the warehouse floor. Wheat Flour packet stack created.
+- Walking and single items are never announced.
