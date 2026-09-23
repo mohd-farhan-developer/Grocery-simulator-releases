@@ -1,46 +1,26 @@
-# Grocery Simulator 4.3
+# Grocery Simulator 4.4
 
-Deliveries by truck, thieves, product expiry, open and close desks, and a store full of sound.
+Customers who talk, a thousand names, music for the menus and the store, and the sound of the shop itself.
 
-## Truck deliveries
+## Customers speak
 
-- Orders now arrive by truck. After you order, MarketHub shows Delivery: In Progress, and about 30 game minutes later you hear: Delivery truck has arrived.
-- In the Warehouse, open the warehouse door, then open the truck door. Carry the boxes in one at a time and put them down where you like.
-- If you have a stock clerk, choose Start Unloading and clerks on shift carry the boxes in for you.
-- Close the truck door once it is empty and the truck drives away. An order placed while the truck is parked comes on the next truck.
+- Your customers now talk. You hear them come in, look along the shelves, find what they came for, complain when it is not there, get restless in the queue, finish paying, and say something on their way out.
+- There are 40 recorded voices, 25 men and 15 women. A customer is given one when they arrive and keeps it until they leave.
+- Up to four customers can be heard at once. Nobody is ever cut off mid-sentence: a fifth customer waits their turn.
+- From the warehouse the voices come through the door, and from the office they are further away again. Standing at a checkout desk brings the customer you are serving right to the front and pushes the rest of the shop behind them.
+- None of this is read out by TalkBack. It is store sound, like the tills and the trolleys.
 
-## Thieves
+## A thousand names
 
-- Leaving the warehouse door open while the store is open can invite a thief, at most once a day.
-- TalkBack warns you: Warning! Thief entered the warehouse. Press Stop Thief at the bottom of the Warehouse page to get the box back, or it will be stolen after a few seconds.
-- Close the warehouse door to keep your stock safe.
+- Customers used to share sixteen names between them. There are now 500 men's names and 500 women's names, and a customer's voice always suits their name.
 
-## Product expiry
+## Music and ambience
 
-- Every product now has a shelf life. Milk lasts 5 days, butter 8, flour 45, rice 60, sugar 90, cola 120, and household goods a year.
-- Stock keeps its expiry wherever it goes: boxes, your hands, racks, and customers' baskets.
-- Each new day, stock gets one day older, and you hear when something expires, for example: Milk expired.
-- Customers buy the oldest stock first and never buy expired stock. Stock clerks never shelve it.
-- Cleaners remove expired products from racks. Only you can throw away an expired box in the warehouse, with Discard Expired Box.
-- Boxes show the days remaining, and racks show the freshest and oldest stock and how much has expired.
-
-## Checkout
-
-- Desk buttons now read simply, for example: Desk 2. Open. Ready for customers. Cashier: Priya.
-- Once you own more than one desk, each desk has an Open Desk or Close Desk button. Customers only use open desks, and a desk cannot close while someone is paying there.
-- Checkout announcements are shorter: waiting at checkout, getting impatient, and payment completed.
-
-## Customers
-
-- Customers no longer walk to racks that are not in your shop. An item with no rack counts as unavailable straight away.
-
-## Sounds
-
-- The whole store now has sound, and you can hear it from any page: boxes, stocking, scanning, the cash drawer, coins, footsteps, cleaning, trucks, and the security alarm.
-- The store keeps running while you use the Computer, so work carries on while you shop or check your bank.
-- Work in another part of the store sounds a little quieter, and important alerts always play at full volume.
-- Buttons click, Computer apps have a mouse click, and Back has its own sound.
+- The menus have their own music, and the store has its own.
+- Underneath it, the shop floor hums with the sound of a working supermarket, and the warehouse has a sound of its own. Walking between them fades from one to the other.
+- The office counts as part of the shop, so the shop carries on behind you while you use the computer.
 
 ## Settings
 
-- The TalkBack Mode switch and the Reset Progress button have been removed from Settings.
+- Three new sliders: Ambience Volume, Menu Music Volume and Shop Music Volume. The old Music Volume slider, which had nothing to control, is what they replace.
+- Voice Volume is now remembered with the rest of your game.
