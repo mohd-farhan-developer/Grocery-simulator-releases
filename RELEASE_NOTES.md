@@ -1,25 +1,35 @@
-# Grocery Simulator 4.5
+# Grocery Simulator 4.6
 
-A calmer shop to listen to, cash payments that finish themselves, and cashiers you move without leaving the page.
+Buttons clear of the navigation bar, a card terminal that behaves like a real one, and far fewer swipes everywhere.
 
-## A quieter shop
+## Shop Floor
 
-- Two customers can be heard talking at once instead of four, so the store sounds like people rather than a crowd.
-- Nobody speaks the instant something happens. A customer takes a moment on the way in, on finding what they came for, and on the way out.
-- Looking around comes back no more often than every half minute.
-- A customer who has to wait for a voice waits a second or four and keeps waiting, because nobody is ever cut off mid-sentence.
-- The door bell has gone. You hear customers arrive and leave in their own voices now.
+- The Computer and Warehouse buttons are no longer covered by the phone's navigation bar. They sit clear of it on both gesture and three-button devices.
+- Your money has moved up beside the day and the clock, so it is on screen wherever you are in the shop.
+- The store line is alive now: Store Open, 12 Customers Shopping, or Store Closed, Day Complete. Above it is a line with your customers, your cashiers and your store rating.
+- Open Store asks you to confirm first, so the day cannot start by accident.
+- Customers and Checkout are hidden while there is nothing on them, which is fewer swipes past empty pages.
+- The shop hums quietly before you open and swells as the doors open.
 
-## Cash payments
+## Checkout desk
 
-- Only the notes and coins that fit in the change still owed are shown, and the row gets shorter with every one you hand over. You can no longer overpay a customer by mistake.
-- When the last of the change goes back, the sale finishes by itself: the drawer closes, the checkout completes, and TalkBack moves straight to Payment completed.
-- The Complete Payment button is gone, because there is nothing left to press.
-- A customer paying the exact amount still finishes on the last scan, and the sounds now run in order, so the drawer never closes before the money has gone in.
+- A cashier's name opens that desk's menu underneath it: Scan Item, Cancel Sale, the desks they can move to, and Remove From Desk. Only desks that are free are offered, so a move never fails.
+- Remove From Desk sends a cashier to Staff Housing. One Continue Shift button there puts them back on the desk they came from.
+- Once the last item is scanned the basket list and the scan count go, leaving the customer, their patience, the payment type and the total.
+- The patience line keeps the same words and changes colour: green, amber, then red.
+- A desk with nobody at it now says how many are waiting for it.
 
-## Moving cashiers
+## Card payments
 
-- A cashier now reads simply: Priya, Cashier.
-- Activate her and the desks she can move to appear in her place. Choose one and she moves, and her name comes back.
-- No page opens, nothing is announced, and TalkBack follows the buttons there and back again.
-- The No cashiers hired message has been removed.
+- Card payment works like a real terminal. The total goes to the machine by itself; you only approve it.
+- You will hear Waiting for customer, then Card detected, then Processing, then Approved. The customer sometimes takes the card away too early, and now and then a card is declined and they stay to try again.
+- Every button at the desk is locked while the terminal works, and pressing Approve again does nothing.
+- Payment completed stays for five seconds and then hands you back to the desk, never to the Back button.
+- Giving change moves you straight to the largest note still worth handing over.
+
+## Warehouse
+
+- A box is one line now: Salt Box, Open, 30 of 50. Four swipes become one.
+- Days left are only spoken when a month or less remains.
+- The usage line says how much room is left: 43 of 60 boxes used, 17 free.
+- The door has one button and nothing else to read.
