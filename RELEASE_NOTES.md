@@ -1,18 +1,27 @@
-# Grocery Simulator 4.9
+# Grocery Simulator 5.0
 
-Long lists read through a five-row window, so a hundred boxes take no longer to reach than five.
+One rack to a screen, a spill that stays a spill, and a checkout that hands you the next thing to press.
 
-## Long lists are quick again
+## One rack, one screen
 
-- With a hundred boxes in the warehouse, TalkBack had to walk all hundred rows. It crawled, and now and then it skipped one.
-- Those lists are now read through a window of five rows. Only five are ever really there, so there is nothing to crawl through.
-- Reaching the bottom row of the window slides it down by one, so there is always another row waiting below you. The top row does the same going up.
-- It stops at the beginning and the end rather than looping around.
-- It is still one list. There are no pages, nothing is announced, and swiping works exactly as it always did.
-- Two-finger scrolling is no longer needed on these lists.
+- Opening a rack used to leave the rack itself listed above it, its details printed a second time, the rest of the aisle still below, and two Back buttons on the page.
+- A rack is now its own screen. The shelf is read once, then what you can do to it, and the arrow at the top left is the only way out.
+- The rack cards in the list are shorter, and no longer carry the price.
+- The rack's own screen reads in order: product name, rack number, stock, status, price.
 
-## Where it applies
+## A spill is a spill
 
-- Warehouse boxes, StockPro products, your bill history, your bank transactions, and the employee lists.
-- Checkout, the Shop Floor, the warehouse actions and the Computer home are unchanged.
-- A list short enough to read as it is gets no window at all.
+- A spill used to replace the rack's name, so you heard Spill Detected instead of Rice Rack. It never does that now.
+- The rack keeps its own name, and the hazard is mentioned after its status: Hazard, Milk Spill.
+- On the rack's screen the hazard has its own block, with the area it covers.
+- The buttons run in one order: put the sign out, mop it up, go to the back side, change the price, take the product off.
+
+## Checkout follows the sale
+
+- Scanning the last item hands you the payment. For a card that is Approve Payment; for cash it is the one rupee note.
+- When the next customer walks up, you land on Scan Next Item instead of stopping at their name.
+- A desk a cashier is running is left alone, because there is nothing there for you to press.
+
+## Long lists
+
+- Employee Records is read through the five-row window as well.
