@@ -1,33 +1,20 @@
-# Grocery Simulator 5.1
+# Grocery Simulator 5.2
 
-A till that holds real notes, customers who help when the change is awkward, and an update that survives a poor connection.
+The till and your balance are now two separate places, and banking the takings takes as long as it should.
 
-## The cash drawer
+## Your money is counted once
 
-- The till now holds real notes and coins instead of a number, and it is kept apart from your balance. Your balance is what the business is worth; the till is what you have to hand back to somebody paying with a five hundred.
-- It starts each day with a float counted out of your balance, and what is left goes back in at the end, so neither side gains money from nowhere.
-- A customer's notes go into the till the moment they hand them over, so you can break the five hundred they just gave you.
-- A note the till has run out of is not offered any more. Nor is one that would leave an amount the till cannot finish, so you can never strand a sale by tapping the wrong note.
-- Change is worked out as a whole combination, not by grabbing the biggest note each time. A till with no twenties finds two tens.
+- A cash sale used to be added to your balance and put into the till at the same time, so depositing the till counted the same money twice. Cash sales now only fill the till, and the money reaches your balance when you bank it.
+- The morning no longer takes the float out of your balance either. The till and the balance are two separate places, and money only moves between them when you move it.
 
-## When the change is awkward
+## Banking the takings
 
-- If only a rupee or two is left, the customer will usually say keep it. You decide: Accept Round-Off, or count it out anyway.
-- If the till genuinely cannot make the amount, the customer often finds another ten or five. It goes into the till and the change is worked out again.
-- That only happens when the extra note actually helps. When nothing does, the last few rupees are rounded off rather than leaving somebody standing at the till.
+- Deposit Cash opens its own screen. Choose the notes and coins yourself, or take everything above the float, or the lot.
+- The cash leaves the till straight away and shows as a Pending Cash Deposit. Your balance is credited about forty minutes later, when it clears.
+- You can also withdraw to the till when it is running short. The money leaves your balance at once and the notes arrive about thirty minutes later.
+- A deposit that is still on its way is remembered when you save and load, and anything already due is settled as soon as you come back.
 
-## EasyBank
+## Smaller fixes
 
-- A new Cash Drawer page: the opening float, what is in the till now, and one line for each denomination, read as ₹100, 12 notes. Denominations the till has run out of are not listed.
-- It also shows the day's cash sales and the change you have given.
-- Deposit Excess Cash moves the day's takings into your balance and leaves the float behind. Set Tomorrow's Float chooses what the till starts with.
-
-## End of day
-
-- The report now shows the opening float, cash sales, change given, what is left in the till, and what went to the bank.
-
-## Updating the game
-
-- The update is much larger than it used to be, and the downloader was still written for a small one. It gave up after twenty seconds of silence and started again from nothing every time.
-- It now waits a minute before giving up, tries three times, and asks only for the part it is missing, so a dropped connection carries on from where it stopped. Try Again resumes as well.
-- It also tells you what actually went wrong instead of always blaming your connection.
+- A cash customer who walks out before paying now takes their money back out of the till.
+- The few rupees a customer waves away are tracked, so the till still balances at the end of the day.
