@@ -1,27 +1,33 @@
-# Grocery Simulator 5.0
+# Grocery Simulator 5.1
 
-One rack to a screen, a spill that stays a spill, and a checkout that hands you the next thing to press.
+A till that holds real notes, customers who help when the change is awkward, and an update that survives a poor connection.
 
-## One rack, one screen
+## The cash drawer
 
-- Opening a rack used to leave the rack itself listed above it, its details printed a second time, the rest of the aisle still below, and two Back buttons on the page.
-- A rack is now its own screen. The shelf is read once, then what you can do to it, and the arrow at the top left is the only way out.
-- The rack cards in the list are shorter, and no longer carry the price.
-- The rack's own screen reads in order: product name, rack number, stock, status, price.
+- The till now holds real notes and coins instead of a number, and it is kept apart from your balance. Your balance is what the business is worth; the till is what you have to hand back to somebody paying with a five hundred.
+- It starts each day with a float counted out of your balance, and what is left goes back in at the end, so neither side gains money from nowhere.
+- A customer's notes go into the till the moment they hand them over, so you can break the five hundred they just gave you.
+- A note the till has run out of is not offered any more. Nor is one that would leave an amount the till cannot finish, so you can never strand a sale by tapping the wrong note.
+- Change is worked out as a whole combination, not by grabbing the biggest note each time. A till with no twenties finds two tens.
 
-## A spill is a spill
+## When the change is awkward
 
-- A spill used to replace the rack's name, so you heard Spill Detected instead of Rice Rack. It never does that now.
-- The rack keeps its own name, and the hazard is mentioned after its status: Hazard, Milk Spill.
-- On the rack's screen the hazard has its own block, with the area it covers.
-- The buttons run in one order: put the sign out, mop it up, go to the back side, change the price, take the product off.
+- If only a rupee or two is left, the customer will usually say keep it. You decide: Accept Round-Off, or count it out anyway.
+- If the till genuinely cannot make the amount, the customer often finds another ten or five. It goes into the till and the change is worked out again.
+- That only happens when the extra note actually helps. When nothing does, the last few rupees are rounded off rather than leaving somebody standing at the till.
 
-## Checkout follows the sale
+## EasyBank
 
-- Scanning the last item hands you the payment. For a card that is Approve Payment; for cash it is the one rupee note.
-- When the next customer walks up, you land on Scan Next Item instead of stopping at their name.
-- A desk a cashier is running is left alone, because there is nothing there for you to press.
+- A new Cash Drawer page: the opening float, what is in the till now, and one line for each denomination, read as ₹100, 12 notes. Denominations the till has run out of are not listed.
+- It also shows the day's cash sales and the change you have given.
+- Deposit Excess Cash moves the day's takings into your balance and leaves the float behind. Set Tomorrow's Float chooses what the till starts with.
 
-## Long lists
+## End of day
 
-- Employee Records is read through the five-row window as well.
+- The report now shows the opening float, cash sales, change given, what is left in the till, and what went to the bank.
+
+## Updating the game
+
+- The update is much larger than it used to be, and the downloader was still written for a small one. It gave up after twenty seconds of silence and started again from nothing every time.
+- It now waits a minute before giving up, tries three times, and asks only for the part it is missing, so a dropped connection carries on from where it stopped. Try Again resumes as well.
+- It also tells you what actually went wrong instead of always blaming your connection.
