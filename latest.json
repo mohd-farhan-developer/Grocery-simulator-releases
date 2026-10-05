@@ -1,7 +1,7 @@
 {
-    "versionCode":  50,
-    "versionName":  "6.3",
+    "versionCode":  51,
+    "versionName":  "6.3.1",
     "releaseNotes":  "",
-    "apkUrl":  "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/MarketMania-v6.3.apk",
-    "sha256":  "04e353f44a4fed3e06378419a96b39ea56f59eb566161aac3548d033fbea5667"
+    "apkUrl":  "https://raw.githubusercontent.com/mohd-farhan-developer/Grocery-simulator-releases/main/MarketMania-v6.3.1.apk",
+    "sha256":  "bb7cc3e8ed406304f78a6892d229b8f72666538bc81c853e01ba1bb4e99ca262"
 }
